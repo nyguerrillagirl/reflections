@@ -10,3 +10,9 @@ How is the staging area different from the working directory and the repository?
 The staging area contains the set of files "to be committed" or "added" to the repository. So the file in its current state
 is not yet in the repository if it is in the staging area. The working directory contains the current set of
 files that you are working on and may not be the same set of files in the working area or repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You place/add into the staging area all the files that are related to one logical change so that
+when you do a commit all files related to a single logical change are updated or placed into
+the repository as a single unit.
