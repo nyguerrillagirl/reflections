@@ -16,3 +16,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 You place/add into the staging area all the files that are related to one logical change so that
 when you do a commit all files related to a single logical change are updated or placed into
 the repository as a single unit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A branch allows you to take the current code base on the master branch and experiment and 
+explore new ideas and features without affecting the master branch.  Branches are useful for keeping experimental code or features that we do not intend to use in the master branch (or may want to fold or merge in the future) independent from the master branch.
