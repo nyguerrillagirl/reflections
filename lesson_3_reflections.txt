@@ -1,1 +1,9 @@
 1. When would you want to create a remote repository rather than keeping all your work local?
+
+A remote repository makes sense when you want to share your work with others or collaborate
+with team members on a project. In addition, if you work on different machines (one at home and a different one at the job) having a remote repository makes sense.
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote directory?
+
+Manually pulling the changes allows the developer to decide if and when they want to update their remote directory. It can get confusing if Git did it automatically since files being worked on or not known to the user can suddenly start to appear in the commit history. This may impact the current work being done.
