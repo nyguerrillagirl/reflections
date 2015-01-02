@@ -21,3 +21,7 @@ A branch is an indendent commit history (from the master) that allows me to expl
 Not sure.
 
 I would be guessing here. Having the last known state of a remote stored locally makes it easier to make changes/do work and test before I add to the master branch on GitHub. 
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would always collaborate using some source control mechanism, otherwise tracking changes made by different developers would be difficult to next to impossible to track and manage using the manual approach. We would be forced to only have one developer touching or updating the source files at a time.
