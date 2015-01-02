@@ -25,3 +25,7 @@ I would be guessing here. Having the last known state of a remote stored locally
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I would always collaborate using some source control mechanism, otherwise tracking changes made by different developers would be difficult to next to impossible to track and manage using the manual approach. We would be forced to only have one developer touching or updating the source files at a time.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When collaborating on a project it is wise to make changes on a separate branch in order to manage/coordinate the changes that get added to the master.  Fellow developers may need to approve the change (it also allows a type of code/doc review) to take place. Doing changes directly in the master avoids all the work to merge branches but can potentially create problems especially in the case when mutliple developers are working on the project.
