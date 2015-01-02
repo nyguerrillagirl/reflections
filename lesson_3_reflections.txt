@@ -15,3 +15,9 @@ A fork creates a copy of a repository from one GitHub account to my own. It basc
 I can clone any repository to my desktop. It is basically a copy. If I clone from my own GitHub repository the local repository is automatically setup as a remote. This will allow me to make changes locally and push back to the master branch on GitHub.  Creating a clone of someone else's repository does not allow GitHub to establish a connection or reference to the source repository.
 
 A branch is an indendent commit history (from the master) that allows me to explore changes to code without affecting the master branch.  I can choose to incorporate the changes by merging back to the master branch or incorporate changes to the master branch into my branch. The nice thing about branches is that they can be labeled with an informative name to reflect the reason for their creation.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Not sure.
+
+I would be guessing here. Having the last known state of a remote stored locally makes it easier to make changes/do work and test before I add to the master branch on GitHub. 
